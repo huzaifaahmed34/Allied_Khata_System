@@ -1,0 +1,57 @@
+{
+  "homepage": "https://github.com/huzaifaahmed34/myportfolio.git",
+  "name": "quotation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap-sass": "^3.4.1",
+    "datatables.net-bs4": "^1.10.21",
+    "datatables.net-buttons-bs4": "^1.6.2",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1",
+    "pdfmake": "^0.1.66",
+    "react": "^16.13.1",
+    "react-bs-datatable": "^2.1.1",
+    "react-data-grid": "^7.0.0-canary.17",
+    "react-data-table-component": "^6.9.6",
+    "react-data-table-component-extensions": "^1.4.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^2.1.8",
+    "react-to-print": "^2.9.0",
+    "reactjs-admin-lte": "^0.6.0",
+    "styled-components": "^5.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "datatables.net": "^1.10.21",
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1"
+  }
+}
